@@ -1,0 +1,10 @@
+{
+  "name": "airbaby-api",
+  "version": "1.0.0",
+  "description": "airbaby lamda functions",
+  "author": "Jake Burden <jake@burden.blog>",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.5.7"
+  }
+}

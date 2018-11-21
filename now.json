@@ -1,6 +1,17 @@
 {
   "version": 2,
+  "name": "airbaby",
   "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
-  ]
+    { "src": "www/next.config.js", "use": "@now/next" },
+    { "src": "api/*.js", "use": "@now/node" }
+  ],
+  "routes": [
+      { "src": "/api/(.*)", "dest": "/api/$1" },
+      { "src": "/(.*)", "dest": "/www/$1" }
+  ],
+  "env": {
+    "airtable_api_key": "@airtable_api_key",
+    "airtable_base": "@airtable_base",
+    "airtable_record": "@airtable_record"
+  }
 }
