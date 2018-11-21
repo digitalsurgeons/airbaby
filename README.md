@@ -4,7 +4,7 @@
 
 - A Next.js & Now 2.0 monorepo that pulls data from airtable.
 
-![screenshot of airbaby](screenshot.jpg)
+![screenshot of airbaby](screenshot.png)
 
 ### api/airtable.js
 
