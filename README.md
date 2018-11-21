@@ -2,7 +2,7 @@
 
 > https://airbaby.now.sh
 
-- A Next.js & Now 2.0 monorepo that pulls data from airtable.
+- A Next.js & Now 2.0 monorepo that pulls data from airtable to show daily TILs on the Digital Surgeon screens.
 
 ![screenshot of airbaby](screenshot.png)
 
